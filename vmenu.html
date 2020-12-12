@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>
+            verticalmenu
+        </title>
+        <style>
+            #divMenu, ul, li, li li {  
+    margin: 0;  
+    padding: 0;;  
+}  
+   
+#divMenu {  
+    width: 150px;  
+    height: 27px;  
+}  
+   
+#divMenu ul  
+{  
+    line-height: 25px;
+}  
+   
+    #divMenu li {  
+        list-style: none;  
+        position: relative;  
+        background: #641b1b;
+        list-style: none;   
+        
+
+    }  
+   
+        #divMenu li li {  
+            list-style: none;  
+            position: relative;  
+            background: #641b1b;  
+            left: 148px;  
+            
+        }  
+   
+   
+    #divMenu ul li a {  
+        width: 148px;  
+        height: 25px;  
+        display: block;  
+        text-decoration: none;  
+        text-align: center;  
+        color:wheat;  
+        border:1px solid whitesmoke;  
+    }  
+   
+    #divMenu ul ul {  
+        position: absolute;  
+        visibility: hidden;  
+       
+    }  
+   
+    #divMenu ul li:hover ul {  
+        visibility: visible;  
+    }  
+   
+    #divMenu li:hover {  
+        background-color: palevioletred;  
+    }  
+   
+    #divMenu ul li:hover ul li a:hover {  
+        background-color: palevioletred;  
+    }  
+   
+    #divMenu a:hover {  
+        font-weight: bold;  
+    } 
+        </style>
+    </head>
+    <body>
+        <div id="divMenu">    
+            <ul>    
+                <li><a href="#">Home</a>        
+                    </li>    
+                <li><a href="#">NEWCARS</a>    
+                        <ul>    
+                    <li><a href="#">Find new Cars</a></li>    
+                    <li><a href="#">Upcoming Cars</a></li>    
+                    <li><a href="#">Online price</a></li>    
+                </ul></li>    
+                <li><a href="#">USEDCARS</a>    
+                        <ul>    
+                    <li><a href="#">Check valution</a></li>    
+                    <li><a href="#">sell car</a></li>    
+                    <li><a href="#">Insurance</a></li>    
+                </ul></li>    
+                <li><a href="#">SERVICES</a></li>    
+                <li><a href="#">ABOUT US</a>    
+                        <ul>    
+                    <li><a href="#">987654323</a></li>    
+                    <li><a href="#">BANGALORE</a></li>    
+                    <li><a href="#">CONTACT</a></li>    
+                </ul></li>    
+                <li><a href="#">MORE INFO</a></li>    
+            </ul>    
+            </div>      
+    </body>
+</html>
